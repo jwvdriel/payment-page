@@ -1,3 +1,30 @@
 :root {
+  /* fonts */
   --baseFont: 'Poppins', serif;
+
+  /* colors */
+  --white-navbar: #ffffff;
+  --grayish: #2b2d3d;
+  --text-color-navigation-downloand-button: #1e1e1e;
+  --pink: #e9dcff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--text-color-navigation-downloand-button);
+  width: 90%;
+  height: 100vh;
+  margin: 2.5rem auto;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
